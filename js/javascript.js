@@ -1,10 +1,9 @@
-$('.btn').on('click', function () {
+$('.btn-dark').on('click', function () {
     $('.wrap').toggleClass('active');
 
     return false;
 });
 
-
-$(".wrap").click(function () {
-    $(".wrap").hide();
+$('.wrap').on('click', function () {
+    $('.wrap').removeClass('active');
 });
